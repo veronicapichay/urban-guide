@@ -1,0 +1,132 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+section{
+
+    height: 100vh;
+    font-family: 'Shippori Antique B1', sans-serif;
+    background-image: linear-gradient(to top, #30cfd0 10%, #330867 100%);
+   
+}
+
+
+.stat{
+
+    color: rgb(207, 235, 235);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    
+
+}
+.stat h2{
+
+    font-size: 30px;
+    
+    
+    
+}
+.stat p{
+
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    padding: 10px;
+
+}
+.first{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;  
+    height: 50vh;
+    transition: opacity 0.7s ease;
+    
+
+}
+.first h1{
+    
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+.first button{
+
+    border-radius: 20px;
+    cursor: pointer;  
+    background: none;
+    margin-bottom: 500px;
+}
+.game{
+        
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transition: opacity 0.5s ease 0.7s;
+           
+}
+.winner{
+
+  
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    
+  
+}
+.bucketHand,
+.choice {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+    
+    
+}
+.choice button{
+
+    border-radius: 20px;
+    cursor: pointer;
+    background: none;
+   justify-content: space-between;
+
+}
+
+.choice .hand:hover{
+
+    transform: translate3d(0px, -20px, 0px);
+    transition: all 0.5s;
+
+}
+
+img{
+
+    border-radius: 20px;
+    background: none;
+
+}
+div.fadeOut{
+
+    opacity:0;
+    pointer-events: none;
+}
+
+div.fadeIn{
+   
+   opacity: 1;
+   pointer-events: all;
+    
+
+
+}
